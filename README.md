@@ -1,7 +1,7 @@
 # Rollup filter for webassets [![Build Status](https://travis-ci.org/rclmenezes/webassets-rollup.svg?branch=master)](https://travis-ci.org/rclmenezes/webassets-rollup)
 
 
-Filter for for compiling assets using [Rollup](http://rollupjs.org) and [webassets](http://webassets.readthedocs.org). Requires Python 2.7 or Python 3.3 and newer.
+Filter for compiling assets using [Rollup](http://rollupjs.org) and [webassets](http://webassets.readthedocs.org). Requires Python 2.7 or Python 3.3 and newer.
 
 ## Basic usage
 
