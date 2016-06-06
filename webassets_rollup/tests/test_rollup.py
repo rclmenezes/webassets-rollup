@@ -11,7 +11,7 @@ register_filter(Rollup)
 
 class RollupFilterTestCase(TempEnvironmentHelper, TestCase):
     default_files = {
-        'main.js': 'import { cube } from "./maths.js"; console.log( cube(5) );',
+        'main.js': 'import { cube } from "./maths.js"; console.log(cube(5));',
         'maths.js': 'export function cube ( x ) { return x * x * x; }'
     }
 
