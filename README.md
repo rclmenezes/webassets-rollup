@@ -12,6 +12,15 @@ from webassets_rollup import Rollup
 register_filter(Rollup)
 ```
 
+## Usage with Pyramid
+
+This requires [pyramid_webassets](https://github.com/sontek/pyramid_webassets).
+
+```python
+from webassets_rollup import Rollup
+register_filter(Rollup)
+```
+
 ## Options
 
 ##### ROLLUP_BIN
@@ -23,7 +32,7 @@ The path to the Rollup binary. If not set, assumes `rollup` is in the system pat
 A list of any command-line arguments to be included when `rollup` is called. For example:
 
 ```python
-ROLLUP_EXTRA_ARGS = ['--no-strict', '-f', 'cjs']
+ROLLUP_EXTRA_ARGS = ['--no-strict', '-f', 'cjs', '-c', '/my/rollup.config.js']
 ```
 
 ## License

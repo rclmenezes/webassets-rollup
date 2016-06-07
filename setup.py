@@ -22,7 +22,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='webassets-rollup',
-      version='0.0.2',
+      version='1.0.0',
       description='Rollup filter for webassets',
       long_description=__doc__,
       author='Rodrigo Menezes',
